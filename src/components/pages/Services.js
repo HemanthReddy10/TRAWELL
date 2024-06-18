@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import './Services.css';
+import Footer from "../Footer";
 
 export default function Services() {
 
@@ -23,7 +24,7 @@ const servicesData = [
         ))}
       </div>
     </div>
-
+<Footer/>
   </>
 }
 

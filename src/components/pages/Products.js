@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './Products.css';
 import ProductCarousel from './ProductCarousel';
-
+import Footer from "../Footer";
 export default function Products() {
   const productsData = [
     {
@@ -51,7 +51,7 @@ export default function Products() {
         ))}
       </div>
     </div>
-  
+    <Footer />
   </>
 }
 
