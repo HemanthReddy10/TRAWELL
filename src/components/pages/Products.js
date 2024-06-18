@@ -6,40 +6,40 @@ import Footer from "../Footer";
 export default function Products() {
   const productsData = [
     {
-      title: "Product 1",
-      description: "Description of product 1",
+      title: "Dest 1",
+      description: "Description of Dest 1",
       images: ["/images/img-1.jpg", "/images/img-2.jpg"],
     },
     {
-      title: "Product 2",
-      description: "Description of product 2",
+      title: "Dest 2",
+      description: "Description of Dest 2",
       images: ["/images/img-3.jpg", "/images/img-4.jpg"],
     },
     {
-      title: "Product 3",
-      description: "Description of product 3",
+      title: "Dest 3",
+      description: "Description of Dest 3",
       images: ["/images/img-5.jpg", "/images/img-6.jpg"],
     },
     {
-      title: "Product 4",
-      description: "Description of product 1",
+      title: "Dest 4",
+      description: "Description of Dest 4",
       images: ["/images/img-7.jpg", "/images/img-3.jpg"],
     },
     {
-      title: "Product 5",
-      description: "Description of product 2",
+      title: "Dest 5",
+      description: "Description of Dest 5",
       images: ["/images/img-8.jpg", "/images/img-4.jpg"],
     },
     {
-      title: "Product 6",
-      description: "Description of product 3",
+      title: "Dest 6",
+      description: "Description of Dest 6",
       images: ["/images/img-9.jpg", "/images/img-5.jpg"],
     },
   ];
   return <>
-  <h1 className='products'>PRODUCTS</h1>;
+  <h1 className='products'>Famous Destinations</h1>;
   <div className="products-container">
-      <h1>Our Products</h1>
+      <h1>Our Destinations</h1>
       <br/>
       <div className="products-grid">
         {productsData.map((product, index) => (
