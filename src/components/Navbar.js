@@ -51,15 +51,7 @@ function Navbar() {
                 Popular Destinations
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Services
-              </Link>
-            </li>
+           
 
             <li>
               <Link
